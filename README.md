@@ -1,68 +1,3 @@
-# 🔐 lorem-keycloak-client
-
-A lightweight Node.js SDK to manage users, login, and authorization in **Keycloak**. Ideal for teams that want to interact with Keycloak programmatically — register users, log in, reset passwords, and secure routes.
-
----
-
-## 📦 Installation
-
-### From NPM (after you publish)
-
-```bash
-npm install lorem-keycloak-client
-```
-
----
-
-## 🚀 How to Publish (Public NPM)
-
-1. **Login to NPM**
-
-   ```bash
-   npm login
-   ```
-
-2. **Ensure `package.json` contains:**
-
-   ```json
-   {
-     "name": "lorem-keycloak-client",
-     "version": "1.0.0",
-     "main": "index.js",
-     "license": "MIT",
-     "type": "commonjs",
-     "publishConfig": {
-       "access": "public"
-     }
-   }
-   ```
-
-3. **Publish to NPM**
-
-   ```bash
-   npm publish --access public
-   ```
-
-✅ Done! Your package is now available at: `https://www.npmjs.com/package/lorem-keycloak-client`
-
----
-
-## 📁 Project Structure
-
-```
-lorem-keycloak-client/
-├── lib/
-│   ├── keycloakClient.js
-│   ├── registerUser.js
-│   ├── loginUser.js
-│   ├── resetPassword.js
-│   └── authMiddleware.js
-├── index.js
-└── README.md
-```
-
----
-
 ## 🔧 Usage
 
 ### 1. Register a User
@@ -177,8 +112,5 @@ MIT License © 2025 Gbolahan Adegoke
 
 ## 💬 Need Help?
 
-Open an [issue here](https://github.com/your-org/lorem-keycloak-client/issues), or message your team lead.
+Open an [issue here](https://github.com/Loremexcellentiam/keyclock_npm_lib/issues), or message your team lead.
 
----
-
-Would you like a sample `package.json` file to go along with this README?

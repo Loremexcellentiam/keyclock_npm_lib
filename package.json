@@ -1,11 +1,19 @@
 {
   "name": "lorem-keycloak-client",
   "version": "1.0.0",
+  "description": "A Node.js client for managing Keycloak users and authentication",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Run tests here\""
+    "test": "echo \"No tests specified\" && exit 0"
   },
-  "dependencies": {
+  "keywords": ["keycloak", "auth", "oauth2", "admin", "sdk"],
+  "author": "Your Name <you@example.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+   "dependencies": {
     "axios": "^1.10.0",
     "jsonwebtoken": "^9.0.2",
     "jwks-rsa": "^3.2.0",
