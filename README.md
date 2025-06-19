@@ -1,3 +1,9 @@
+# 🔐 lorem-keycloak-client
+
+A lightweight Node.js SDK to manage users, login, and authorization in **Keycloak**. Ideal for teams that want to interact with Keycloak programmatically — register users, log in, reset passwords, and secure routes.
+
+---
+
 ## 🔧 Usage
 
 ### 1. Register a User
