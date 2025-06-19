@@ -1,0 +1,14 @@
+{
+  "name": "lorem-keycloak-client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Run tests here\""
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwks-rsa": "^3.2.0",
+    "openid-client": "^5.0.0"
+  }
+}
